@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body bg-background text-slate-800;
+}
+
+@layer utilities {
+  .nav-link {
+    @apply text-sm font-medium text-slate-700 hover:text-primary transition;
+  }
+
+  .mobile-link {
+    @apply text-base font-medium text-slate-700 hover:text-primary;
+  }
+}
