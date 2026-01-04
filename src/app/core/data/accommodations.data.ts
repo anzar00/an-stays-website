@@ -53,7 +53,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     ],
 
     foodIncluded: true,
-    image: '/assets/images/an-royal-stays.webp',
+    image: 'assets/images/an-royal-stays.webp',
   },
   // 2️⃣ AN Royal PG & INN
   {
@@ -106,7 +106,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     ],
 
     foodIncluded: true,
-    image: '/assets/images/an-royal-inn.webp',
+    image: 'assets/images/an-royal-inn.webp',
   },
 
   // 3️⃣ AN Royal PG – For Men
@@ -159,6 +159,6 @@ export const ACCOMMODATIONS: Accommodation[] = [
     ],
 
     foodIncluded: true,
-    image: '/assets/images/an-royal-pg-men.webp',
+    image: 'assets/images/an-royal-pg-men.webp',
   },
 ];
