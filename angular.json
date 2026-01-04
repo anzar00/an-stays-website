@@ -36,7 +36,8 @@
             "prerender": true,
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "baseHref": "/an-stays-website/"
           },
           "configurations": {
             "production": {
