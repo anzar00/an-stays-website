@@ -3,7 +3,7 @@
         <div class="flex h-16 items-center justify-between">
 
             <!-- Logo -->
-            <a href="/" class="flex items-center gap-2">
+            <a routerLink="/" class="flex items-center gap-2">
                 <span class="text-xl font-heading font-bold text-primary">
                     AN Stays
                 </span>
@@ -14,10 +14,10 @@
 
             <!-- Desktop Nav -->
             <div class="hidden md:flex items-center gap-8">
-                <a href="#accommodations" class="nav-link">Accommodations</a>
-                <a href="/about" class="nav-link">About Us</a>
-                <a href="/contact" class="nav-link">Contact Us</a>
-                <a href="/blog" class="nav-link">Festive Vibe</a>
+                <a routerLink="/" fragment="accommodations" class="nav-link" class="nav-link">Accommodations</a>
+                <a routerLink="/about" class="nav-link">About Us</a>
+                <a routerLink="/contact" class="nav-link">Contact Us</a>
+                <a routerLink="/blog" class="nav-link">Festive Vibe</a>
             </div>
 
 
@@ -34,10 +34,10 @@
     @if (mobileMenuOpen) {
     <div class="md:hidden border-t bg-white">
         <div class="flex flex-col px-4 py-4 gap-4">
-            <a href="#accommodations" class="mobile-link" (click)="closeMenu()">Accommodations</a>
-            <a href="/about" class="mobile-link" (click)="closeMenu()">About Us</a>
-            <a href="/contact" class="mobile-link" (click)="closeMenu()">Contact Us</a>
-            <a href="/blog" class="mobile-link" (click)="closeMenu()">Festive Vibe</a>
+            <a routerLink="/" fragment="accommodations" class="mobile-link" (click)="closeMenu()">Accommodations</a>
+            <a routerLink="/about" class="mobile-link" (click)="closeMenu()">About Us</a>
+            <a routerLink="/contact" class="mobile-link" (click)="closeMenu()">Contact Us</a>
+            <a routerLink="/blog" class="mobile-link" (click)="closeMenu()">Festive Vibe</a>
         </div>
     </div>
     }
