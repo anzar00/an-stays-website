@@ -15,4 +15,5 @@ export interface Accommodation {
   nearbyPlaces: string[];
   foodIncluded: boolean;
   image: string;
+  whatsappNumber: string; 
 }
