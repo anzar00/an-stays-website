@@ -3,21 +3,21 @@
   "builds": [
     {
       "src": "dist/an-stays-website/browser/*",
-      "use": "@vercel/static" 
+      "use": "@vercel/static"
     },
     {
       "src": "dist/an-stays-website/server/server.mjs",
-      "use": "@vercel/node" 
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/assets/(.*)",
-      "dest": "dist/an-stays-website/browser/assets/$1" 
+      "dest": "dist/an-stays-website/browser/assets/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "dist/an-stays-website/server/server.mjs" 
+      "dest": "dist/an-stays-website/server/server.mjs"
     }
   ]
 }
