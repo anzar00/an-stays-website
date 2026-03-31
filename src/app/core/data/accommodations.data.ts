@@ -164,4 +164,115 @@ export const ACCOMMODATIONS: Accommodation[] = [
     image: 'assets/images/an-royal-pg-men.webp',
     whatsappNumber: '918880272244',
   },
+
+  {
+    id: 4,
+    name: 'AN Royal Urban PG',
+    for: 'For Men',
+    locationShort: 'North Bangalore',
+    address: 'Address to be updated',
+
+    about:
+      `AN Royal Urban Men's PG.
+      \n Looking for a budget-friendly accomadation without compromising on quality? AN Royal Urban PG in Hunasamaranahalli offers 
+      the perfect stay for students and professionals. Located strategically near Kempegowda International Airport, it ensures a quick, stress-free commute for travellers and airport employees.`,
+
+    rooms: [
+      { type: 'Private Room', price: 13000 },
+      { type: 'Two Sharing', price: 7500 },
+      { type: 'Three Sharing', price: 6000 },
+      { type: 'Four Sharing', price: 5500 },
+    ],
+
+    amenities: [
+      'Parking',
+      'Power Backup',
+      'House Keeping',
+      'Drinking Water',
+      'Almirah',
+      'Security',
+      'Reception',
+      'WiFi',
+      'Bed Sheet',
+      'Pillow',
+      'Bathroom',
+      'Refrigerator',
+      'CCTV',
+      'Lift',
+      'Washing Machine',
+    ],
+
+    nearbyPlaces: [
+      'Kempegowda International Airport',
+      'Mall of Asia',
+      'Nandi Hills',
+      'Foxconn Company',
+      'Rank Tech & Interone Tech (Walking Distance)',
+      'IBM Bhartiya City (15 mins)',
+      'Manyata Tech Park',
+      'Sir MVIT (1.4 km)',
+      'SVCE (2.3 km)',
+      'Sai Vidya Institute',
+    ],
+
+    foodIncluded: true,
+    image: 'assets/images/an-royal-pg-men.webp',
+    whatsappNumber: '918088347951',
+  },
+
+  {
+    id: 5,
+    name: 'AN Royal Premium PG',
+    for: 'For Women',
+    locationShort: 'North Bangalore',
+    address: 'Address to be updated',
+
+    about:
+      `AN Royal Premium PG for Women.\n Experience a blend of luxury,safety, and convenience at AN Royal Premium PG for Women. Specifically curated for 
+      students and working professionals, our accomodation in Hunasamaranahalli provides a sophisticated living environment with 
+      a "home away from home" feel. 
+      \n Located perfectly near Kempegowda International Airport, it is the premier choice for frequent travelers and aviation professionals seeking a seamless commute.`,
+
+    rooms: [
+      { type: 'Private Room', price: 16000 },
+      { type: 'Two Sharing', price: 8500 },
+      { type: 'Three Sharing', price: 7400 },
+      { type: 'Four Sharing', price: 6300 },
+    ],
+
+    amenities: [
+      'Parking',
+      'Power Backup',
+      'House Keeping',
+      'Drinking Water',
+      'Almirah',
+      'Security',
+      'Reception',
+      'WiFi',
+      'Bed Sheet',
+      'Pillow',
+      'Bathroom',
+      'Refrigerator',
+      'CCTV',
+      'Lift',
+      'Washing Machine',
+    ],
+
+    nearbyPlaces: [
+      'Kempegowda International Airport',
+      'Mall of Asia',
+      'Nandi Hills',
+      'Foxconn Company',
+      'Rank Tech & Interone Tech (Walking Distance)',
+      'IBM Bhartiya City (15 mins)',
+      'Manyata Tech Park',
+      'Sir MVIT (1.4 km)',
+      'SVCE (2.3 km)',
+      'Sai Vidya Institute',
+    ],
+
+    foodIncluded: true,
+    image: 'assets/images/an-royal-pg-men.webp',
+    whatsappNumber: '918088347951',
+  }
 ];
