@@ -14,7 +14,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Aamna Nafiza',
     role: 'CMO',
-    image: 'assets/images/team/placeholder.webp',
+    image: 'assets/images/team/aamna-nafiza.webp',
   },
   {
     name: 'Shaik Shamsheer',
