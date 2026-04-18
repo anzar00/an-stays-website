@@ -16,4 +16,5 @@ export interface Accommodation {
   foodIncluded: boolean;
   image: string;
   whatsappNumber: string; 
+  gallery: string[];
 }

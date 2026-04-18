@@ -53,8 +53,22 @@ export const ACCOMMODATIONS: Accommodation[] = [
     ],
 
     foodIncluded: true,
-    image: 'assets/images/an-royal-stays.webp',
+    image: 'assets/images/an_royal_stays/AN-Royal-Stays-nightlife.webp',
     whatsappNumber: '918904054317',
+    gallery: [
+      'assets/images/an_royal_stays/AN-Royal-Reception.webp',
+      'assets/images/an_royal_stays/AN-Royal-RecreationArea.webp',
+      'assets/images/an_royal_stays/AN-Royal-Stays.webp',
+      'assets/images/an_royal_stays/AN-Royal-Stays-nightlife.webp',
+      'assets/images/an_royal_stays/AN-Royal-WaitingArea.webp',
+      'assets/images/an_royal_stays/AN-Royal-DinningArea.webp',
+      'assets/images/an_royal_stays/AN-Royal-dinninghall.webp',
+      'assets/images/an_royal_stays/AN-Royal-DinningHallArea.webp',
+      'assets/images/an_royal_stays/AN-Royal-Entrance.webp',
+      'assets/images/an_royal_stays/AN-Royal-IndoorGames.webp',
+      'assets/images/an_royal_stays/AN-Royal-Lift.webp',
+      'assets/images/an_royal_stays/AN-Royal-lobby.webp',
+    ],
   },
   // 2️⃣ AN Royal PG & INN
   {
@@ -109,6 +123,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     foodIncluded: true,
     image: 'assets/images/an-royal-inn.webp',
     whatsappNumber: '918861910937',
+    gallery: [],
   },
 
   // 3️⃣ AN Royal PG – For Men
@@ -163,6 +178,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     foodIncluded: true,
     image: 'assets/images/an-royal-pg-men.webp',
     whatsappNumber: '918880272244',
+    gallery: [],
   },
 
   {
@@ -218,6 +234,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     foodIncluded: true,
     image: 'assets/images/an-royal-pg-men.webp',
     whatsappNumber: '918088347951',
+    gallery: [],
   },
 
   {
@@ -274,5 +291,6 @@ export const ACCOMMODATIONS: Accommodation[] = [
     foodIncluded: true,
     image: 'assets/images/an-royal-pg-men.webp',
     whatsappNumber: '918088347951',
+    gallery: [],
   }
 ];
