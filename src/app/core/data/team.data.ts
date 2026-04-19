@@ -9,7 +9,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Beebi Jaan',
     role: 'COO',
-    image: 'assets/images/team/beebi-jaan.webp',
+    image: 'assets/images/team/placeholder.webp',
   },
   {
     name: 'Aamna Nafiza',
