@@ -4,12 +4,12 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Mahaboob Basha',
     role: 'CEO | CFO',
-    image: 'assets/images/team/placeholder.webp',
+    image: 'assets/images/team/mahaboob-basha.webp',
   },
   {
     name: 'Beebi Jaan',
     role: 'COO',
-    image: 'assets/images/team/placeholder.webp',
+    image: 'assets/images/team/beebi-jaan.webp',
   },
   {
     name: 'Aamna Nafiza',
@@ -26,7 +26,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: 'Shaik Shabbir',
     role: 'Managing Director',
     organization: 'AN Royal Stays PG & INN',
-    image: 'assets/images/team/placeholder.webp',
+    image: 'assets/images/team/shaik-shabbir.webp',
   },
   {
     name: 'Divya T',
